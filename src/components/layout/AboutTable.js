@@ -14,7 +14,7 @@ function AboutTable() {
                 <th>
                     <tr>
                         <th scope="row"></th>
-                        <td>EBITDA or Operating Income: $2 million - $7 million for new investments</td>
+                        <td>Operating Income: ~ $2 million - $7 million</td>
                     </tr>
                 </th>
                 <th>

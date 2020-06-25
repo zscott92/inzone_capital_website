@@ -43,11 +43,6 @@ tr {
   justify-content: space-between;
 }
 
-table {
-  justify-content: space-evenly;
-  text-align: center;
-}
-
 row {
   text-align: center;
 }

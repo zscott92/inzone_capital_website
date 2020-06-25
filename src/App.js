@@ -1,9 +1,7 @@
 import React from 'react';
-import Navbar from './components/layout/Navbar';
-import Carousel from './components/layout/Jumbo';
-import AboutTable from './components/layout/AboutTable'
-// import Mission from '../screens/Mission';
-import Team from './components/screens/TeamScreen';
+import HomeScreen from './components/screens/HomeScreen';
+import MissionScreen from './components/screens/MissionScreen';
+import TeamScreen from './components/screens/TeamScreen';
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,19 +13,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Carousel />
-      <AboutTable />
       <Router>
         <Switch>
           <Route path="/about">
-            <App />
+            <HomeScreen />
           </Route>
           <Route path="/mission">
-            {/* <Mission /> */}
+            <MissionScreen />
           </Route>
           <Route path="/team">
-            <Team />
+            <TeamScreen />
           </Route>
           <Route path="/portfolio">
             {/* <Portfolio /> */}
