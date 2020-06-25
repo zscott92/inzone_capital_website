@@ -5,7 +5,6 @@ import Navbar from '../layout/Navbar';
 function PortfolioScreen() {
     return (
         <Fragment>
-            <Navbar />
             <Jumbo />
         </Fragment>
     )

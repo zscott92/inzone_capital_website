@@ -2,6 +2,8 @@ import React from 'react';
 import HomeScreen from './components/screens/HomeScreen';
 import MissionScreen from './components/screens/MissionScreen';
 import TeamScreen from './components/screens/TeamScreen';
+import Navbar from './components/layout/Navbar';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <Navbar />
         <Switch>
           <Route path="/about">
             <HomeScreen />

@@ -12,8 +12,6 @@ class TeamScreen extends Component {
             <Col xs="6" id="about">
               <UserCard />
             </Col>
-            <Col xs="6">
-            </Col>
           </Row>
         </Jumbotron>
       </div>

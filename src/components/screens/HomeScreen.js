@@ -8,7 +8,6 @@ class HomeScreen extends Component {
     render() {
         return (
             <Container>
-                <Navbar />
                 <Jumbo />
                 <AboutTable />
             </Container>

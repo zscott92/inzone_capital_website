@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Navbar from '../layout/Navbar';
+import Jumbo from '../layout/Jumbo';
 
 function MissionScreen() {
     return(
-        console.log(1,2,3)
+        <Fragment>
+            <Navbar />
+            <Jumbo />
+        </Fragment>
     )
 }
 export default MissionScreen;
