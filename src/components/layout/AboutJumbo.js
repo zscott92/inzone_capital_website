@@ -4,7 +4,7 @@ import image2 from '../../images/carouselimages/private_equity_image_2.jpeg';
 import image3 from '../../images/carouselimages/private_equity_image_3.jpeg';
 import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption, Jumbotron, Col, Row } from 'reactstrap';
 
-function Jumbo() {
+function AboutJumbo() {
         const items = [
             {
                 src: image1,
@@ -88,4 +88,4 @@ function Jumbo() {
             </div>
         )
     }
-export default Jumbo;
+export default AboutJumbo;

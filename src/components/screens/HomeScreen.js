@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
-import { Container } from 'reactstrap';
+import React, { Fragment } from 'react';
+import AboutJumbo from '../layout/AboutJumbo';
+import AboutTable from '../layout/AboutTable';
 import Navbar from '../layout/Navbar';
-import Jumbo from '../layout/Jumbo';
-import AboutTable from '../layout/AboutTable'
 
-class HomeScreen extends Component {
-    render() {
-        return (
-            <Container>
-                <Jumbo />
-                <AboutTable />
-            </Container>
-        )
-    }
+function HomeScreen() {
+    return (
+        <Fragment>
+            <Navbar />
+            <AboutJumbo />
+            <AboutTable />
+        </Fragment>
+    )
 }
 export default HomeScreen;

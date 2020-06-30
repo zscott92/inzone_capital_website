@@ -1,12 +1,14 @@
 import React, { Fragment } from 'react';
 import Navbar from '../layout/Navbar';
-import Jumbo from '../layout/Jumbo';
+import { Jumbotron } from 'reactstrap';
 
 function MissionScreen() {
     return(
         <Fragment>
             <Navbar />
-            <Jumbo />
+            <Jumbotron>
+                Our mission is to provide our clients with the best possible service every time no matter what.
+            </Jumbotron>
         </Fragment>
     )
 }

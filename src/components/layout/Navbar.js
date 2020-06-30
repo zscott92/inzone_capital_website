@@ -1,7 +1,6 @@
 import React, {  useState } from 'react';
 import {
-    Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, NavbarText, UncontrolledDropdown, DropdownToggle,
-    DropdownMenu, DropdownItem
+    Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, NavbarText
 } from 'reactstrap';
 
 
@@ -17,7 +16,7 @@ function NavigationBar () {
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             <NavItem>
-                                <NavLink href="/components/">About</NavLink>
+                                <NavLink href="/about/">About</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="/mission/">Mission</NavLink>
@@ -31,23 +30,6 @@ function NavigationBar () {
                             <NavItem>
                                 <NavLink href="/contact/">Contact</NavLink>
                             </NavItem>
-                            <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
-                                    Options
-                    </DropdownToggle>
-                                <DropdownMenu right>
-                                    <DropdownItem>
-                                        Option 1
-                      </DropdownItem>
-                                    <DropdownItem>
-                                        Option 2
-                      </DropdownItem>
-                                    <DropdownItem divider />
-                                    <DropdownItem>
-                                        Reset
-                      </DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
                         </Nav>
                         <NavbarText>Private Equity Firm</NavbarText>
                     </Collapse>

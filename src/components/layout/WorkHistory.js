@@ -14,7 +14,7 @@ function WorkHistory() {
         </thead>
         <tbody>
           <tr>
-            <th scope="row">InZone Holdings Inc.</th>
+            <th scope="row">In Zone Holdings Inc.</th>
             <td>CEO/Chairman</td>
             <td>1997</td>
             <td>Present</td>

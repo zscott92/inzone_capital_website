@@ -2,7 +2,8 @@ import React from 'react';
 import HomeScreen from './components/screens/HomeScreen';
 import MissionScreen from './components/screens/MissionScreen';
 import TeamScreen from './components/screens/TeamScreen';
-import Navbar from './components/layout/Navbar';
+import PortfolioScreen from './components/screens/PortfolioScreen';
+import ContactScreen from './components/screens/ContactScreen';
 
 import {
   BrowserRouter as Router,
@@ -16,7 +17,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
         <Switch>
           <Route path="/about">
             <HomeScreen />
@@ -28,10 +28,10 @@ function App() {
             <TeamScreen />
           </Route>
           <Route path="/portfolio">
-            {/* <Portfolio /> */}
+            <PortfolioScreen />
           </Route>
           <Route path="/contact">
-            {/*  <Contact /> */}
+             <ContactScreen />
     </Route>
   </Switch>
   </Router>

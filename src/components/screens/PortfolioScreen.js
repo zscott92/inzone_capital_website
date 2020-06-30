@@ -1,11 +1,14 @@
 import React, { Fragment } from 'react';
-import Jumbo from '../layout/Jumbo';
+import { Jumbotron } from 'reactstrap';
 import Navbar from '../layout/Navbar';
 
 function PortfolioScreen() {
     return (
         <Fragment>
-            <Jumbo />
+            <Navbar />
+            <Jumbotron>
+                Our portfolio contains
+            </Jumbotron>
         </Fragment>
     )
 }
