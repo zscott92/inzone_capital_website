@@ -32,16 +32,9 @@
   color: white;
 }
 img {
-  height: 45vh;
+  height: fit-content;
 }
 
-th {
-  text-align: center;
-}
-
-tr {
-  justify-content: space-between;
-}
 
 row {
   text-align: center;

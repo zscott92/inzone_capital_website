@@ -11,7 +11,7 @@ function NavigationBar () {
         return (
             <div>
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">Inzone Capital</NavbarBrand>
+                    <NavbarBrand href="/about/">Inzone Capital</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>

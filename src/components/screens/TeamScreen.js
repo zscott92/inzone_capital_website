@@ -1,23 +1,21 @@
-import React, { Component } from 'react';
-import { Row, Col } from 'reactstrap';
-import { Jumbotron } from 'reactstrap';
+import React, {  Fragment } from 'react';
+import { Row, Col, Jumbotron } from 'reactstrap';
 import UserCard from '../layout/UserCard';
 import Navbar from '../layout/Navbar';
 
-class TeamScreen extends Component {
-  render() {
+function TeamScreen() {
     return (
-      <div>
+      <Fragment>
         <Navbar />
         <Jumbotron>
+          <h1>Team</h1>
           <Row xs="2">
-            <Col xs="6" id="about">
+            <Col xs="3" id="about">
               <UserCard />
             </Col>
           </Row>
         </Jumbotron>
-      </div>
+      </Fragment>
     )
-  }
 }
 export default TeamScreen;
