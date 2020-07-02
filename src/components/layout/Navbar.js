@@ -10,7 +10,7 @@ function NavigationBar () {
 
         return (
             <div>
-                <Navbar color="light" light expand="md">
+                <Navbar color="faded" light expand="md">
                     <NavbarBrand href="/about/">Inzone Capital</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>

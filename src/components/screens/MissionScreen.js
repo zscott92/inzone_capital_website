@@ -7,8 +7,9 @@ function MissionScreen() {
         <Fragment>
             <Navbar />
             <Jumbotron>
-            <h1>Mission</h1>
-                Our mission is to provide our clients with the best possible service every time no matter what.
+            <h2>Mission</h2>
+            <br/>
+                <h3>To use our decades of experience in consumer products' to add unique value and perspective to our portfolio companies.</h3>
             </Jumbotron>
         </Fragment>
     )

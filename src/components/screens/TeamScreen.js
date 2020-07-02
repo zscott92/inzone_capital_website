@@ -9,10 +9,9 @@ function TeamScreen() {
         <Navbar />
         <Jumbotron>
           <h1>Team</h1>
-          <Row xs="2">
-            <Col xs="3" id="about">
+          <br/>
+          <Row>
               <UserCard />
-            </Col>
           </Row>
         </Jumbotron>
       </Fragment>

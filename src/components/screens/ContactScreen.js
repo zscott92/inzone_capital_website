@@ -6,7 +6,11 @@ function ContactScreen() {
     return (
         <Fragment>
             <Navbar />
-            <Jumbotron />
+            <Jumbotron>
+                <h1>Contact us</h1><br/>
+                <a href="mailto:jscott@inzonecapital.com">jscott@inzonecapital.com</a><br/><br/>
+                <a href="mailto:ksapp@inzonecapital.com"> ksapp@inzonecapital.com</a>
+            </Jumbotron>
         </Fragment>
     )
 }
