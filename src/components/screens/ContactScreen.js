@@ -1,15 +1,17 @@
 import React, { Fragment } from 'react';
 import Navbar from '../layout/Navbar';
-import { Jumbotron } from 'reactstrap';
+import { Jumbotron, Col } from 'reactstrap';
 
 function ContactScreen() {
     return (
         <Fragment>
             <Navbar />
             <Jumbotron>
-                <h1>Contact us</h1><br/>
-                <a href="mailto:jscott@inzonecapital.com">jscott@inzonecapital.com</a><br/><br/>
-                <a href="mailto:ksapp@inzonecapital.com"> ksapp@inzonecapital.com</a>
+                <h2>Contact us</h2><br />
+                    <h3>Jim Scott</h3>
+                    <a href="mailto:jscott@inzonecapital.com">jscott@inzonecapital.com</a><br /><br/>
+                    <h3>Kristine Sapp</h3>
+                    <a href="mailto:ksapp@inzonecapital.com"> ksapp@inzonecapital.com</a>
             </Jumbotron>
         </Fragment>
     )

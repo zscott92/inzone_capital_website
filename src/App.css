@@ -39,21 +39,50 @@
 
 .ProfilePicture {
 width: 100%;
-height: max-content;
+height: 660px;
 }
 
 .nav-item {
   color: white;
 }
 
+.Jumbotron {
+  background-color: lightgrey;
+}
+
+h1 {
+  color:#020202;
+}
+
+h2 {
+  color: #0061A6;
+  padding: 10px;
+}
+
 h3 {
-  color: cadetblue;
+  color: #CC5500;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  font-size: x-large;
+}
+
+a {
+  color: cadetblue;
 }
 
 p {
   text-align: left;
-  font-size: large;
+  font-size: larger;
+  padding: 10px;
+}
+
+ol li {
+  margin-top: 15px;
+  text-align: left;
+  vertical-align: text-top;
+  padding: 5px;
+  list-style-type: none;
+  font-size: larger;
 }
 
 #about {
