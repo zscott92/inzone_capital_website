@@ -39,7 +39,11 @@
 
 .ProfilePicture {
 width: 100%;
-height: 660px;
+height: fit-content;
+}
+
+.Card {
+  width: 20%;
 }
 
 .nav-item {
