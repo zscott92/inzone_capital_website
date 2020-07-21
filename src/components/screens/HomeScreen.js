@@ -10,7 +10,6 @@ function HomeScreen() {
             <Navbar />
             <AboutJumbo />
             <AboutTable />
-            <Lessons />
         </Fragment>
     )
 }

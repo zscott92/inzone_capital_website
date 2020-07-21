@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Navbar from '../layout/Navbar';
-import { Jumbotron, Col } from 'reactstrap';
+import { Jumbotron } from 'reactstrap';
 
 function ContactScreen() {
     return (

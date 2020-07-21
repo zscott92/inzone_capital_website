@@ -34,7 +34,7 @@
 
 .AboutImages {
   width: 100%;
-  height: 500px;
+  height: 100vh;
 }
 
 .ProfilePicture {
@@ -46,9 +46,22 @@ height: 660px;
   color: white;
 }
 
-.Jumbotron {
-  background-color: lightgrey;
+.aboutCarousel {
+  height: 90vh;
+  width: 100%;
+  /* overflow:hidden; */
 }
+
+.aboutCarousel .carousel-inner {
+  height:100%;
+    
+}
+
+.Jumbotron {
+  padding: 10px;
+}
+
+
 
 h1 {
   color:#020202;

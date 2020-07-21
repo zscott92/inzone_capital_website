@@ -31,12 +31,12 @@ function App() {
             <PortfolioScreen />
           </Route>
           <Route path="/contact">
-             <ContactScreen />
-    </Route>
-  </Switch>
-  </Router>
+            <ContactScreen />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   )
 }
-      
+
 export default App;
