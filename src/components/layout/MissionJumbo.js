@@ -3,10 +3,9 @@ import { Jumbotron } from 'reactstrap';
 
 function MissionJumbo() {
     return (
-        <Jumbotron>
+        <Jumbotron fluid>
             <h2>Mission</h2>
-            <br />
-            <p className="mission">To use our decades of experience in consumer products' to add unique value and perspective to our portfolio companies.</p>
+            <p className="mission">To use our decades of experience in consumer products' to add unique value and perspective to our portfolio companies</p>
         </Jumbotron>
     )
 }
