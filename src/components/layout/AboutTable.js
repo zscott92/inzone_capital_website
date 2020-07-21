@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Row, Col } from 'reactstrap';
 
 function AboutTable() {
     return (
-        <Row>
-            <Col className="AboutTable"><h3>Revenues less than $50 million</h3></Col>
-            <Col className="AboutTable"><h3>Operating Income:  $2 million - $7 million</h3></Col>
-            <Col className="AboutTable"><h3>No minimum for add-ons</h3></Col>
-            <hr/>
-        </Row>
-        
+        <Fragment>
+            <h2>What We Look For</h2>
+            <Row>
+                <Col className="AboutTable"><h3><b>Revenues</b> &lt; $50,000,000</h3></Col>
+                <Col className="AboutTable"><h3><b>Operating Income:</b> $2,000,000 - $7,000,000</h3></Col>
+                <Col className="AboutTable"><h3><b>No minimum for add-ons</b></h3></Col>
+                <hr />
+            </Row>
+        </Fragment>
     )
 }
 export default AboutTable;

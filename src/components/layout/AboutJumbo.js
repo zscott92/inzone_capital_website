@@ -4,7 +4,8 @@ import image2 from '../../images/carouselimages/moneytree.jpg';
 import image3 from '../../images/carouselimages/private_equity_image_3.jpeg';
 import image4 from '../../images/carouselimages/financialdocuments.jpg';
 import image5 from '../../images/carouselimages/grid.jpg';
-import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption, Jumbotron } from 'reactstrap';
+import aboutPic from '../../images/profilepics/aboutpic.jpg'
+import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption, Jumbotron, Col, Row } from 'reactstrap';
 
 function AboutJumbo() {
     const items = [
@@ -93,11 +94,18 @@ function AboutJumbo() {
                         <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
                     </Carousel>
                     <Jumbotron fluid>
+                        <Row>
+                            <Col>
+                            <img src={aboutPic} className="AboutPic" />
+                            </Col>
+                            <Col>
             <h2>What We Do</h2>
             <p>We are a private equity firm focused on growing branded consumer products and services companies. We partner with founder-owners
             and executive teams to help them achieve the next phase in company growth, from extending distribution channels, adding new product
             lines, implementing creative marketing and brand strategies, building operational infrastructure, accessing capital, and more.
         </p>
+        </Col>
+        </Row>
         </Jumbotron>
         </Fragment>
     )
