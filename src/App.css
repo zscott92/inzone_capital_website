@@ -47,7 +47,7 @@ height: 660px;
 }
 
 .aboutCarousel {
-  height: 90vh;
+  height: 92vh;
   width: 100%;
   /* overflow:hidden; */
 }
@@ -61,7 +61,14 @@ height: 660px;
   padding: 10px;
 }
 
+.aboutTable {
+  padding: 15px;
+  margin-bottom: 30px;
+}
 
+.mission {
+  text-align: center;
+}
 
 h1 {
   color:#020202;
@@ -70,13 +77,14 @@ h1 {
 h2 {
   color: #0061A6;
   padding: 10px;
+  font-weight: 800;
 }
 
 h3 {
   color: #020202;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 10px;
   font-size: x-large;
+  margin-top: 5px;
 }
 
 a {
@@ -85,8 +93,8 @@ a {
 
 p {
   text-align: left;
-  font-size: larger;
-  padding: 10px;
+  font-size: x-large;
+  padding: 5px;
 }
 
 ol li {

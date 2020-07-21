@@ -3,6 +3,7 @@ import AboutJumbo from '../layout/AboutJumbo';
 import AboutTable from '../layout/AboutTable';
 import Navbar from '../layout/Navbar';
 import Lessons from '../layout/Lessons';
+import MissionJumbo from '../layout/MissionJumbo';
 
 function HomeScreen() {
     return (
@@ -10,6 +11,7 @@ function HomeScreen() {
             <Navbar />
             <AboutJumbo />
             <AboutTable />
+            <MissionJumbo />
         </Fragment>
     )
 }

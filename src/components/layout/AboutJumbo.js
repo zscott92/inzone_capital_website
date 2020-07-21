@@ -96,7 +96,7 @@ function AboutJumbo() {
                     <Jumbotron fluid>
                         <Row>
                             <Col>
-                            <img src={aboutPic} className="AboutPic" />
+                            <img src={aboutPic} className="AboutPic" alt="About Pic"/>
                             </Col>
                             <Col>
             <h2>What We Do</h2>
