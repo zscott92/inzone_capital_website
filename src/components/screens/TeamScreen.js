@@ -1,5 +1,5 @@
 import React, {  Fragment } from 'react';
-import { Row, Col, Jumbotron } from 'reactstrap';
+import { Row, Jumbotron } from 'reactstrap';
 import UserCard from '../layout/UserCard';
 import Navbar from '../layout/Navbar';
 
@@ -8,7 +8,7 @@ function TeamScreen() {
       <Fragment>
         <Navbar />
         <Jumbotron>
-          <h2>Team</h2>
+          <h1>Team</h1>
           <br/>
           <Row>
               <UserCard />

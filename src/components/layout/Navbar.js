@@ -16,7 +16,7 @@ function NavigationBar () {
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             <NavItem>
-                                <NavLink href="/about/">About</NavLink>
+                                <NavLink href="/">About</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="/team/">Team</NavLink>
@@ -25,7 +25,7 @@ function NavigationBar () {
                                 <NavLink href="/portfolio/">Portfolio</NavLink>
                             </NavItem>
                         </Nav>
-                        <NavbarText>Private Equity Firm</NavbarText>
+                        <NavbarText>Growth Capital Firm</NavbarText>
                     </Collapse>
                 </Navbar>
             </div>

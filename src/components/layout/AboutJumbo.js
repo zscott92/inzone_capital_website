@@ -100,9 +100,10 @@ function AboutJumbo() {
                             </Col>
                             <Col>
             <h2>What We Do</h2>
-            <p>We are a private equity firm focused on growing branded consumer products and services companies. We partner with founder-owners
+            <p>We are a consumer products growth capital firm focused on growing branded consumer products and services companies. We partner with founder-owners
             and executive teams to help them achieve the next phase in company growth, from extending distribution channels, adding new product
             lines, implementing creative marketing and brand strategies, building operational infrastructure, accessing capital, and more.
+            In addition to direct investments, we also look to co-invest with other like minded consumer product funds.
         </p>
         </Col>
         </Row>

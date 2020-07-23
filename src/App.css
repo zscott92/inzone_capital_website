@@ -32,18 +32,27 @@
   color: #61dafb;
 }
 
+.userButtonGroup {
+  justify-content: center;
+  display: flex;
+}
+
+.usersName {
+  text-align: center;
+  margin-bottom: 0;
+}
+
 .AboutImages {
   width: 100%;
   height: 100vh;
 }
 
 .ProfilePicture {
-width: 100%;
 height: fit-content;
 }
 
-.Card {
-  width: 20%;
+.teamCard {
+  padding: 10px;
 }
 
 .nav-item {
@@ -61,13 +70,24 @@ height: fit-content;
     
 }
 
+.modalProfilePicture{
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.modalHeader {
+  text-align: center;
+  width: 100%;
+}
 .Jumbotron {
   padding: 20px;
 }
 
 .aboutTable {
-  padding: 15px;
-  margin-bottom: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .aboutCriteria {
@@ -77,21 +97,33 @@ height: fit-content;
 .mission {
   text-align: center;
   font-size: x-large;
-  font-weight: 600;
+  font-weight: 500;
+  padding: 15px;
 }
+
 
 .criteria {
   text-align: center;
 }
 
+.companyLinks {
+  color: black;
+}
+
+.bioParagraph {
+  font-size: large;
+}
+
+
 h1 {
-  color:#020202;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
 h2 {
   color: #0061A6;
-  padding: 5px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 h3 {
@@ -101,8 +133,25 @@ h3 {
   margin-top: 5px;
 }
 
+h4 {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: larger;
+  color: #282c34;
+}
+
+.cardButton {
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: whitesmoke;
+  font-weight: 600;
+  width: inherit;
+}
+
 a {
-  color: cadetblue;
+  color: whitesmoke;
+  font-weight: 600;
 }
 
 p {
