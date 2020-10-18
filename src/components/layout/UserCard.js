@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Col, Row, CardDeck, Card, CardImg, CardBody, CardTitle, CardSubtitle, Container, Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
+import { Col, Row, CardGroup, Card, CardImg, CardBody, CardTitle, CardSubtitle, Container, Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
 import JimScottProfile from "../../images/profilepics/jim_scott_profile_pic.jpg";
 import KristineSappProfile from "../../images/profilepics/kristine_sapp_profile_pic.jpeg";
 import UserModal from "./UserModal";
@@ -48,9 +48,8 @@ function UserCard() {
     return (
         <Row>
             {/* <CardDeck> */}
-            <CardDeck>
-                <Row>
-                    <Col>
+            <CardGroup>
+
                         <Card body className="teamCard">
                             <CardImg top width="100%" src={JimScottProfile} alt="Card image cap" className="ProfilePicture" />
                             <CardBody>
@@ -66,20 +65,19 @@ function UserCard() {
                                 </Container>
                             </CardBody>
                         </Card>
-                    </Col>
-                    <Col>
                         <Card body className="teamCard">
                             <CardImg top width="100%" src={KristineSappProfile} alt="Card image cap" className="ProfilePicture" />
                             <CardBody>
                                 <CardTitle><h2>Kristine Sapp</h2></CardTitle>
                                 <CardSubtitle><h4>Administrative Director</h4></CardSubtitle>
-                                <Container>
                                     <Col>
                                 <Button className="cardButton" onClick={toggle} color="secondary">About</Button>
                                 <Modal isOpen={modal} toggle={toggle}>
+                                <Col>
                                     <ModalHeader toggle={toggle} className="modalHeader"><img src={KristineSappProfile} className="modalProfilePicture" alt="Profile" /><h4 className="usersName">Kristine Sapp</h4></ModalHeader>
+                                    </Col>
                                     <ModalBody>
-                                        <p>
+                                        <p className="bioParagraph">
                                             Kristine Sapp joined the In Zone team in 1997 as a Staff Accountant.  Over the years, her positions included
                                             Treasury, Finance Manager, and eventually working her way up to Controller.  Kristine has experience in a wide range of accounting
                                             functions including financial reporting, external auditing, M&A transactions as well as supporting C-Level executives.  Kristine
@@ -87,18 +85,11 @@ function UserCard() {
                                             </p>
                                     </ModalBody>
                                 </Modal>
-                                </Col>
-                                <Col>
                                 <Button className="cardButton"><a href="mailto:ksapp@inzonecapital.com">Contact</a></Button>
                                 </Col>
-                                </Container>
                             </CardBody>
                         </Card>
-                    </Col>
-                    <Col></Col>
-                    <Col></Col>
-                </Row>
-            </CardDeck>
+            </CardGroup>
         </Row>
     )
 }

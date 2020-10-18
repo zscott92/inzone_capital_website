@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Container, Footer } from 'reactstrap';
 import AboutJumbo from '../layout/AboutJumbo';
 import AboutTable from '../layout/AboutTable';
 import Navbar from '../layout/Navbar';
@@ -7,12 +8,13 @@ import MissionJumbo from '../layout/MissionJumbo';
 
 function HomeScreen() {
     return (
-        <Fragment>
+        <>
             <Navbar />
             <AboutJumbo />
             <AboutTable />
             <MissionJumbo />
-        </Fragment>
+            <Container className="Footer" fluid={true}>All Copyrights Reserved</Container>
+            </>
     )
 }
 export default HomeScreen;

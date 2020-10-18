@@ -3,15 +3,16 @@ import { Row, Col } from 'reactstrap';
 
 function AboutTable() {
     return (
-        <Fragment>
+        <div>
+            <hr />
             <h2>What We Look For</h2>
-            <Row>
-                <Col className="aboutTable"><h3 className="aboutCriteria"><b>Revenues</b> &lt; $50,000,000</h3></Col>
-                <Col className="aboutTable"><h3 className="aboutCriteria"><b>Operating Income:</b> $2,000,000 - $7,000,000</h3></Col>
-                <Col className="aboutTable"><h3 className="aboutCriteria"><b>No minimum for add-ons!</b></h3></Col>
+            <Col className="AboutCol">
+                <div><p>Revenues &lt; $50,000,000</p></div>
+               <div><p>Operating Income: $2,000,000 - $7,000,000</p></div>
+               <div><p>No minimum for add-ons!</p></div>
                 <hr />
-            </Row>
-        </Fragment>
+            </Col>
+        </div>
     )
 }
 export default AboutTable;

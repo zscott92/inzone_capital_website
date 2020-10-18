@@ -1,10 +1,10 @@
 .App {
   text-align: center;
 }
-.Container {
+/* .Container {
   height: 100%;
   vertical-align: middle;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -16,6 +16,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -43,16 +44,31 @@
 }
 
 .AboutImages {
+  display: block;
   width: 100%;
-  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  height: 84vh;
+  margin-bottom: 15px;
 }
 
 .ProfilePicture {
 height: fit-content;
 }
 
-.teamCard {
-  padding: 10px;
+
+.carousel-caption {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.AboutPic {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+  height: auto;
 }
 
 .nav-item {
@@ -60,45 +76,47 @@ height: fit-content;
 }
 
 .aboutCarousel {
-  height: 92vh;
-  width: 100%;
+  height: 85vh;
+  margin-bottom: 15px;
   /* overflow:hidden; */
 }
 
-.aboutCarousel .carousel-inner {
-  height:100%;
-    
-}
-
 .modalProfilePicture{
-  height: 200px;
+  text-align: center;
+  height: 290px;
+  align-content: center;
   border-radius: 50%;
   margin-bottom: 10px;
-  margin-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-.modalHeader {
-  text-align: center;
-  width: 100%;
-}
+
 .Jumbotron {
   padding: 20px;
 }
 
 .aboutTable {
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 10px;
+  margin-bottom: 5px;
 }
 
 .aboutCriteria {
   font-size: x-large;
 }
 
+.Mission {
+  padding: 5px;
+}
+
 .mission {
-  text-align: center;
+  text-align: left;
   font-size: x-large;
   font-weight: 500;
-  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
 }
 
 
@@ -111,19 +129,21 @@ height: fit-content;
 }
 
 .bioParagraph {
-  font-size: large;
+  font-size: medium;
 }
 
 
 h1 {
   color: black;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 h2 {
-  color: #0061A6;
-  font-weight: 700;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 26px;
 }
 
 h3 {
@@ -155,9 +175,18 @@ a {
 }
 
 p {
-  text-align: left;
-  font-size: x-large;
-  padding: 5px;
+  font-size: 18px;
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-weight: 750;
+  color: black;
+}
+
+span {
+  font-size: larger;
+  font-weight: 550;
 }
 
 ol li {
@@ -169,8 +198,28 @@ ol li {
   font-size: larger;
 }
 
-#about {
+
+.WhatWeDo {
   text-align: left;
+  padding: 10px;
+  font-size: larger;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  align-content: center;
+}
+
+.Footer {
+  height: 25px;
+  background-color: #242424;
+  margin-top: 15px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.AboutCol {
+  font-size: medium;
 }
 
 @keyframes App-logo-spin {

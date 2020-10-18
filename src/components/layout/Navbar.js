@@ -25,7 +25,6 @@ function NavigationBar () {
                                 <NavLink href="/portfolio/">Portfolio</NavLink>
                             </NavItem>
                         </Nav>
-                        <NavbarText>Growth Capital Firm</NavbarText>
                     </Collapse>
                 </Navbar>
             </div>

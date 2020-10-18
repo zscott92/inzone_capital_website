@@ -24,13 +24,6 @@ function AboutJumbo() {
             key: '2'
         },
         {
-            src: image3,
-            altText: 'Slide 3',
-            caption: 'Managing for Long-term Success and Continued Growth',
-            header: 'Slide 3 Header',
-            key: '3'
-        },
-        {
             src: image4,
             altText: 'Slide 4',
             caption: 'Managing for Long-term Success and Continued Growth',
@@ -74,13 +67,13 @@ function AboutJumbo() {
                 key={item.src}
             >
                 <img src={item.src} alt={item.altText} className="AboutImages" />
-                <CarouselCaption captionText={item.header} />
+                <CarouselCaption captionText={item.caption} className="carousel-caption"/>
             </CarouselItem>
         );
     });
 
     return (
-        <Fragment>
+        <>
                     <Carousel
                         activeIndex={activeIndex}
                         next={next}
@@ -93,22 +86,14 @@ function AboutJumbo() {
                         <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
                         <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
                     </Carousel>
-                    <Jumbotron fluid>
-                        <Row>
-                            <Col>
-                            <img src={aboutPic} className="AboutPic" alt="About Pic"/>
-                            </Col>
-                            <Col>
             <h2>What We Do</h2>
-            <p>We are a consumer products growth capital firm focused on growing branded consumer products and services companies. We partner with founder-owners
+            <p className="WhatWeDo"><b>We are a consumer products growth capital firm focused on growing branded consumer products and services companies. We partner with founder-owners
             and executive teams to help them achieve the next phase in company growth, from extending distribution channels, adding new product
             lines, implementing creative marketing and brand strategies, building operational infrastructure, accessing capital, and more.
             In addition to direct investments, we also look to co-invest with other like minded consumer product funds.
+            </b>
         </p>
-        </Col>
-        </Row>
-        </Jumbotron>
-        </Fragment>
+        </>
     )
 }
 export default AboutJumbo;
