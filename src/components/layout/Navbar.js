@@ -10,7 +10,7 @@ function NavigationBar () {
 
         return (
             <div>
-                <Navbar color="faded" light expand="md">
+                <Navbar color="light" light expand="md">
                     <NavbarBrand href="/">Inzone Capital</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
@@ -21,9 +21,9 @@ function NavigationBar () {
                             <NavItem>
                                 <NavLink href="/team/">Team</NavLink>
                             </NavItem>
-                            <NavItem>
+                            {/* <NavItem>
                                 <NavLink href="/portfolio/">Portfolio</NavLink>
-                            </NavItem>
+                            </NavItem> */}
                         </Nav>
                     </Collapse>
                 </Navbar>

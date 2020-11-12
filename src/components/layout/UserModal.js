@@ -16,7 +16,9 @@ const UserModal = (props) => {
     <Fragment>
       <Button className="cardButton" onClick={toggle} color="secondary">About</Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
-        <ModalHeader toggle={toggle} className="modalHeader"><img src={JimProfilePicture} className="modalProfilePicture" alt="Profile"/><h4 className="usersName">Jim Scott</h4></ModalHeader>
+        <Col>
+          <ModalHeader toggle={toggle} className="modalHeader"><h5 className="usersName">Jim Scott</h5></ModalHeader>
+        </Col>
         <ModalBody>
           <p className="bioParagraph">Jim began his entrepreneurial career in 1982 with $300 in savings and has applied financial
           leverage in business owned throughout my career to maintain my private company status. He's proud

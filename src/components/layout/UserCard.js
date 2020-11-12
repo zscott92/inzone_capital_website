@@ -74,7 +74,7 @@ function UserCard() {
                                 <Button className="cardButton" onClick={toggle} color="secondary">About</Button>
                                 <Modal isOpen={modal} toggle={toggle}>
                                 <Col>
-                                    <ModalHeader toggle={toggle} className="modalHeader"><img src={KristineSappProfile} className="modalProfilePicture" alt="Profile" /><h4 className="usersName">Kristine Sapp</h4></ModalHeader>
+                                    <ModalHeader toggle={toggle} className="modalHeader"><h5 className="usersName">Kristine Sapp</h5></ModalHeader>
                                     </Col>
                                     <ModalBody>
                                         <p className="bioParagraph">
@@ -89,6 +89,7 @@ function UserCard() {
                                 </Col>
                             </CardBody>
                         </Card>
+                        <Col></Col>
             </CardGroup>
         </Row>
     )

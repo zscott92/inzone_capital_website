@@ -48,7 +48,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  height: 84vh;
+  height: 80vh;
   margin-bottom: 15px;
 }
 
@@ -56,11 +56,6 @@
 height: fit-content;
 }
 
-
-.carousel-caption {
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .AboutPic {
   width: 400px;
@@ -76,7 +71,7 @@ height: fit-content;
 }
 
 .aboutCarousel {
-  height: 85vh;
+  height: 80vh;
   margin-bottom: 15px;
   /* overflow:hidden; */
 }
@@ -90,6 +85,12 @@ height: fit-content;
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.modalHeader {
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
@@ -140,10 +141,10 @@ h1 {
 }
 
 h2 {
-  font-weight: 800;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 26px;
+  font-weight: 750;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
 }
 
 h3 {
@@ -175,13 +176,14 @@ a {
 }
 
 p {
-  font-size: 18px;
-  width: 93%;
+  font-size: 20px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  font-weight: 750;
+  font-weight: 600;
   color: black;
+  margin-bottom: 20px;
 }
 
 span {
@@ -198,28 +200,21 @@ ol li {
   font-size: larger;
 }
 
-
-.WhatWeDo {
-  text-align: left;
-  padding: 10px;
-  font-size: larger;
-  font-weight: 500;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  align-content: center;
-}
-
 .Footer {
-  height: 25px;
+  height: 30px;
   background-color: #242424;
   margin-top: 15px;
   color: white;
   margin-bottom: 0px;
+  text-align: left;
 }
 
 .AboutCol {
   font-size: medium;
+}
+
+.WhatWeDo {
+  text-align: left;
 }
 
 @keyframes App-logo-spin {

@@ -10,7 +10,6 @@ function TeamScreen() {
           <Col>
               <UserCard />
           </Col>
-          <Container className="Footer" fluid={true}>All Copyrights Reserved</Container>
       </>
     )
 }
